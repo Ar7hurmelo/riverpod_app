@@ -1,7 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
-
-import '../providers/providers.dart';
+import 'package:riverpod_app/app/providers/name_provider_gen.dart';
 
 class PageTwo extends ConsumerWidget {
   const PageTwo({super.key});

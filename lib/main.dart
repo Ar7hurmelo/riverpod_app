@@ -2,6 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 
 import 'app/pages/home_page.dart';
+import 'app/pages/page_four.dart';
 import 'app/pages/page_one.dart';
 import 'app/pages/page_three.dart';
 import 'app/pages/page_two.dart';
@@ -26,6 +27,7 @@ class MyApp extends StatelessWidget {
         '/pageOne': (_) => PageOne(),
         '/pageTwo': (_) => PageTwo(),
         '/pageThree': (_) => PageThree(),
+        '/pageFour': (_) => PageFour(),
       },
     );
   }
